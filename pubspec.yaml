@@ -1,0 +1,26 @@
+name: nothing
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'  # ← अपने Flutter SDK version के हिसाब से adjust कर
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Image Picker for profile photo
+  image_picker: ^1.0.4
+
+  # Add more dependencies below if needed
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
